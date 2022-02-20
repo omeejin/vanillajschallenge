@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+@import url('header.css');
+@import url('main.css');
+@import url('section.css');
+
+.hidden {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(wheat,teal);
+    height: 100vh;
+    margin: 30px;
+    overflow-y: hidden;
+}
+
+input:focus { 
+    outline: none; 
+}
+
+input::placeholder {
+    color: white;
+}
