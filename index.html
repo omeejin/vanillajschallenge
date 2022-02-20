@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section>
+        
+    </section>
+
+    <header>
+        <div class="header-row">
+            <h1 id="greeting" class="hidden"></h1>
+            <form class="hidden" id="login-form">
+                <input required maxlength="15" type="text" placeholder="What's your name?" />
+                <input type="submit" value="log in" />
+            </form>
+        </div>
+        <div class="header-row">
+            <div class="header-row__column">
+                <h2 id="clock">00:00:00</h2>
+            </div>
+            <div class="header-row__column" id="weather">
+                <span></span>
+            </div>
+        </div>
+    </header>  
+
+    <main>
+
+        <div class="main-row" id="quote">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="main-row">
+            <div class="todo-column">
+                <form id="todo-form">
+                    <input type="text" required placeholder="Write a to-do and press enter">
+                </form>
+            </div>
+            <div class="todo-column">
+                <ul id="todo-list"></ul> 
+            </div> 
+        </div>        
+
+</main>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/section.js"></script>
+</body>
+</html>
